@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.tienda.CamisasTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE!
+com.mycompany.tienda.CamisasTest.testCamisaCas()  Time elapsed: 0.008 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <230>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
+	at com.mycompany.tienda.CamisasTest.testCamisaCas(CamisasTest.java:28)
+
